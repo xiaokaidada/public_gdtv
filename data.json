@@ -1,0 +1,18 @@
+{
+  "class": [
+    {
+      "type_name": "今日一线",
+      "type_id": "1"
+    }
+  ],
+  "list": [
+    {
+      "vod_id": "jryx_all_dates",
+      "vod_name": "今日一线",
+      "vod_pic": "https://img.grtn.cn/material/mediaserver/img/2026/01/7f0efcc80de64b033cb3e5c61c21734c.jpg",
+      "vod_remarks": "2026-01-19",
+      "vod_play_url": "2026-01-19$https://vod.gdtv.cn/m3u8/202601/176883461912.m3u8#2026-01-18$https://vod.gdtv.cn/m3u8/202601/176874724351.m3u8#2026-01-17$https://vod.gdtv.cn/m3u8/202601/176870588434.m3u8#2026-01-16$https://vod.gdtv.cn/m3u8/202601/176857554092.m3u8#2026-01-15$https://vod.gdtv.cn/m3u8/202601/176852982271.m3u8#2026-01-13$https://vod.gdtv.cn/m3u8/202601/176835749872.m3u8#2026-01-12$https://vod.gdtv.cn/m3u8/202601/176827170178.m3u8#2026-01-11$https://vod.gdtv.cn/m3u8/202601/176814188167.m3u8#2026-01-10$https://vod.gdtv.cn/m3u8/202601/176805524580.m3u8#2026-01-07$https://vod.gdtv.cn/m3u8/202601/176784303224.m3u8#2026-01-06$https://vod.gdtv.cn/m3u8/202601/176784093265.m3u8#2026-01-05$https://vod.gdtv.cn/m3u8/202601/176767282673.m3u8#2026-01-04$https://vod.gdtv.cn/m3u8/202601/176753749036.m3u8#2026-01-03$https://vod.gdtv.cn/m3u8/202601/176749904747.m3u8#2026-01-02$https://vod.gdtv.cn/m3u8/202601/176741249672.m3u8#2026-01-01$https://vod.gdtv.cn/m3u8/202601/176728016540.m3u8#2025-12-31$https://vod.gdtv.cn/m3u8/202601/176723694250.m3u8#2025-12-30$https://vod.gdtv.cn/m3u8/202601/176714595710.m3u8#2025-12-29$https://vod.gdtv.cn/m3u8/202601/176706655248.m3u8#2025-12-28$https://vod.gdtv.cn/m3u8/202601/176693230233.m3u8",
+      "vod_play_from": "官方线路"
+    }
+  ]
+}
