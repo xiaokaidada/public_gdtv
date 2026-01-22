@@ -1,2 +1,26 @@
-
-233
+{
+        "sites": [
+          {
+            "key": "gdtv_news",
+            "name": "广东新闻",
+            "type": 1,
+            "api": "https://gdtv-api.vercel.app/api/news",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "playerType": 2
+          }
+        ],
+        "parses": [
+          {
+            "name": "官方解析",
+            "type": 0,
+            "url": ""
+          }
+        ],
+        "flags": ["今日一线"],
+        "lives": [],
+        "ijk": {
+          "mediaCodec": 1
+        }
+      }
