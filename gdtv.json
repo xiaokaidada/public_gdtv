@@ -4,7 +4,7 @@
             "key": "gdtv_news",
             "name": "广东新闻",
             "type": 1,
-            "api": "https://gdtv-api.vercel.app/api/news",
+            "api": "https://raw.githubusercontent.com/xiaokaidada/public_gdtv/refs/heads/main/data.json",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 1,
