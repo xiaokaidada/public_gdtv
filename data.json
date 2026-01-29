@@ -1,5 +1,5 @@
 🚀 TVBox 数据更新脚本开始执行...
-⏰ 当前时间: 2026/1/29 16:11:51
+⏰ 当前时间: 2026/1/29 16:44:27
 💾 初始内存状态: 正常
 🔍 开始请求数据...
 🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
@@ -8,15 +8,15 @@
 📊 初始 WASM 内存: 1.25 MB
 🔍 WASM内存状态检查:
    - 当前内存: 1.25 MB
-   - 目标最大内存: 32 MB
-📊 尝试扩展WASM内存: 16.00 MB (约256页)
-✅ WASM 内存扩展成功: 17.25 MB
-🔍 WASM内存缓冲区检查: 大小=17.25 MB
+   - 目标最大内存: 16 MB
+📊 尝试扩展WASM内存: 8.00 MB (约128页)
+✅ WASM 内存扩展成功: 9.25 MB
+🔍 WASM内存缓冲区检查: 大小=9.25 MB
 ✅ WASM内存缓冲区正常
 🔑 生成请求头...
 
 <--- Last few GCs --->
- m[2103:0xea6a000]     6276 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 548.55 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 566 ms) (average mu = 0.198, current m[2103:0xea6a000]     6866 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 507.59 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 508 ms) (average mu = 0.170, current m
+t [2100:0x30f7f000]     6312 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 553.11 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 578 ms) (average mu = 0.197, current [2100:0x30f7f000]     6933 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 549.57 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 552 ms) (average mu = 0.158, current 
 
 <--- JS stacktrace --->
 
