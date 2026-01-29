@@ -1,34 +1,13 @@
 🚀 TVBox 数据更新脚本开始执行...
-⏰ 当前时间: 2026/1/29 16:44:27
+⏰ 当前时间: 2026/1/29 16:56:28
 💾 初始内存状态: 正常
 🔍 开始请求数据...
 🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
 📋 请求方法: POST
 💾 初始内存状态: 正常
-📊 初始 WASM 内存: 1.25 MB
-🔍 WASM内存状态检查:
-   - 当前内存: 1.25 MB
-   - 目标最大内存: 16 MB
-📊 尝试扩展WASM内存: 8.00 MB (约128页)
-✅ WASM 内存扩展成功: 9.25 MB
-🔍 WASM内存缓冲区检查: 大小=9.25 MB
-✅ WASM内存缓冲区正常
+🔧 正在初始化WebAssembly模块...
+✅ WebAssembly模块初始化成功
+📦 WebAssembly导出对象已获取
+📊 WASM 内存: 1.25 MB (不扩展)
+ℹ️ 使用初始WASM内存，不进行扩展
 🔑 生成请求头...
-
-<--- Last few GCs --->
-t [2100:0x30f7f000]     6312 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 553.11 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 578 ms) (average mu = 0.197, current [2100:0x30f7f000]     6933 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 549.57 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 552 ms) (average mu = 0.158, current 
-
-<--- JS stacktrace --->
-
-FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
------ Native stack trace -----
-
- 1: 0xe40d24 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
- 2: 0x1216be0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
- 3: 0x1216eb7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
- 4: 0x1444875  [node]
- 5: 0x14448a3  [node]
- 6: 0x145d97a  [node]
- 7: 0x1460b48  [node]
- 8: 0x1cc69b1  [node]
-timeout: the monitored command dumped core
