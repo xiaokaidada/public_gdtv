@@ -1,1 +1,36 @@
+🚀 TVBox 数据更新脚本开始执行...
+⏰ 当前时间: 2026/1/29 11:09:09
+💾 初始内存状态:
+💾 [2026-01-29T03:09:09.745Z] 内存使用 [脚本开始]: RSS=63.27 MB, Heap=5.47 MB/7.10 MB
+📋 检查系统内存限制:
+📊 当前进程内存: RSS=63.57 MB, Heap=5.48/7.10 MB
+🔍 开始请求数据...
+🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
+📋 请求方法: POST
+💾 初始内存状态:
+💾 [2026-01-29T03:09:09.746Z] 内存使用 [开始执行]: RSS=63.57 MB, Heap=5.53 MB/7.10 MB
+📊 初始 WASM 内存: 1.25 MB
+💾 [2026-01-29T03:09:09.768Z] 内存使用 [WebAssembly初始化后]: RSS=65.72 MB, Heap=5.25 MB/7.60 MB
+📊 当前WASM内存: 1.25 MB, 尝试扩展 128.00 MB
+✅ WASM 内存已安全扩展到: 129.25 MB (限制在 256 MB以内)
+💾 [2026-01-29T03:09:09.768Z] 内存使用 [WebAssembly内存安全扩展后]: RSS=65.72 MB, Heap=5.25 MB/7.60 MB
+💾 [2026-01-29T03:09:09.768Z] 内存使用 [生成请求头前]: RSS=65.85 MB, Heap=5.26 MB/7.60 MB
+🔑 生成请求头...
 
+<--- Last few GCs --->
+ur[2165:0xf6a0000]    11703 ms: Mark-Compact (reduce) 1023.1 (1029.5) -> 1023.1 (1029.5) MB, pooled: 0 MB, 1086.25 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 1106 ms) (average mu = 0.162, cur[2165:0xf6a0000]    12954 ms: Mark-Compact (reduce) 1023.1 (1029.5) -> 1023.1 (1029.5) MB, pooled: 0 MB, 1098.71 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 1102 ms) (average mu = 0.142, cur
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0xe40d24 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
+ 2: 0x1216be0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 3: 0x1216eb7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 4: 0x1444875  [node]
+ 5: 0x14448a3  [node]
+ 6: 0x145d97a  [node]
+ 7: 0x1460b48  [node]
+ 8: 0x1cc69b1  [node]
+timeout: the monitored command dumped core
