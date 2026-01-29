@@ -1,5 +1,5 @@
 🚀 TVBox 数据更新脚本开始执行...
-⏰ 当前时间: 2026/1/29 16:05:01
+⏰ 当前时间: 2026/1/29 16:11:51
 💾 初始内存状态: 正常
 🔍 开始请求数据...
 🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
@@ -14,3 +14,21 @@
 🔍 WASM内存缓冲区检查: 大小=17.25 MB
 ✅ WASM内存缓冲区正常
 🔑 生成请求头...
+
+<--- Last few GCs --->
+ m[2103:0xea6a000]     6276 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 548.55 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 566 ms) (average mu = 0.198, current m[2103:0xea6a000]     6866 ms: Mark-Compact (reduce) 511.0 (515.2) -> 511.0 (515.2) MB, pooled: 0 MB, 507.59 / 0.00 ms  (+ 0.0 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 508 ms) (average mu = 0.170, current m
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0xe40d24 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
+ 2: 0x1216be0 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 3: 0x1216eb7 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [node]
+ 4: 0x1444875  [node]
+ 5: 0x14448a3  [node]
+ 6: 0x145d97a  [node]
+ 7: 0x1460b48  [node]
+ 8: 0x1cc69b1  [node]
+timeout: the monitored command dumped core
