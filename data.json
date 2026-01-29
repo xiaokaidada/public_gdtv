@@ -1,20 +1,24 @@
 🚀 TVBox 数据更新脚本开始执行...
-⏰ 当前时间: 2026/1/29 11:29:24
+⏰ 当前时间: 2026/1/29 11:33:16
 💾 初始内存状态: 正常
 🔍 开始请求数据...
 🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
 📋 请求方法: POST
-💾 初始内存状态:
-❌ 主函数执行失败： memoryMonitor is not defined
-❌ 错误堆栈： ReferenceError: memoryMonitor is not defined
-    at fetchGdtvNews (/home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:588:3)
-    at main (/home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:826:29)
-    at Object.<anonymous> (/home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:845:3)
-    at Module._compile (node:internal/modules/cjs/loader:1706:14)
-    at Object..js (node:internal/modules/cjs/loader:1839:10)
-    at Module.load (node:internal/modules/cjs/loader:1441:32)
-    at Function._load (node:internal/modules/cjs/loader:1263:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
-💥 脚本执行异常退出，错误: memoryMonitor is not defined
+💾 初始内存状态: 正常
+📊 初始 WASM 内存: 1.25 MB
+🔍 WASM内存状态检查:
+   - 当前内存: 1.25 MB
+   - 目标最大内存: 128 MB
+📊 尝试扩展WASM内存: 64.00 MB (约1024页)
+✅ WASM 内存扩展成功: 65.25 MB
+❌ WASM内存扩展失败: memoryMonitor is not defined
+❌ 错误类型: ReferenceError
+❌ 错误堆栈: ReferenceError: memoryMonitor is not defined
+    at /home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:622:7
+❌ 执行失败: memoryMonitor is not defined
+❌ 错误堆栈: ReferenceError: memoryMonitor is not defined
+    at /home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:631:5
+❌ 主函数执行失败： 执行失败：memoryMonitor is not defined
+❌ 错误堆栈： Error: 执行失败：memoryMonitor is not defined
+    at /home/runner/work/gdtv-api/gdtv-api/gdtv-api/scripts/gdtv.js:812:14
+💥 脚本执行异常退出，错误: 执行失败：memoryMonitor is not defined
