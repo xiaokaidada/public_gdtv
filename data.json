@@ -1,1 +1,13 @@
-
+🚀 TVBox 数据更新脚本开始执行...
+⏰ 当前时间: 2026/1/29 20:45:05
+💾 初始内存状态: 正常
+🔍 开始请求数据...
+🌐 目标URL: https://gdtv-api.gdtv.cn/api/search/v1/news
+📋 请求方法: POST
+💾 初始内存状态: 正常
+🔧 正在初始化WebAssembly模块...
+✅ WebAssembly模块初始化成功
+📦 WebAssembly导出对象已获取
+📊 WASM 内存: 1.25 MB (不扩展)
+ℹ️ 使用初始WASM内存，不进行扩展
+🔑 生成请求头...
